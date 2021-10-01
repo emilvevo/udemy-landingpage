@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy | Programming Lessons</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Meta -->
+    <meta name="keywords" content="Python,Javascript,HTML,CSS,Sass">
+    <meta name="description" content="Programming Lessons by Udemy">
+</head>
+
+<body>
+
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <img src="./assets/udemy-icon.svg" alt="logo" class="website-logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Lessons</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="./assets/udemy-ar21.svg" alt="logo" class="website-image">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Udemy</h2>
+            <p>Top #1 | Learning Courses</p>
+        </div>
+
+        <a href="#courses" class="btn btn-primary">Go to courses</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Lessons</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Class Lessons</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aut.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Lessons</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aut.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Conferences</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aut.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Courses</h3>
+        <div class="container">
+            <div class="courses">
+                <!-- Course 1 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./assets/python.svg" alt="python logo">
+                        <span>90% Discount</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">(40+ Hour) Python | Programming from Zero to Advanced</div>
+                        <div class="description">(40+ Hour) Python | Programming from Zero to Advanced | Project Based</div>
+                        <div class="instructor">Dane Timur</div>
+                        <div class="rating">4.6 | (19990 Ratings)</div>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./assets/java.svg" alt="python logo">
+                        <span>90% Discount</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Complete Java Developing Course
+                        </div>
+                        <div class="description">Complete Java Developing Course | Learn Java from Zero</div>
+                        <div class="instructor">Whick Pron</div>
+                        <div class="rating">4.5 | (7000 Ratings)</div>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./assets/javascript.svg" alt="python logo">
+                        <span>90% Discount</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Complete Modern Javascript Course</div>
+                        <div class="description">Complete Modern Javascript Course | ES6+</div>
+                        <div class="instructor">Frank Jr.</div>
+                        <div class="rating">4.7 | (2000 Ratings)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact Me</h4>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Type your message.."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
